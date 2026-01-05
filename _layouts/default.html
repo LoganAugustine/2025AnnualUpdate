@@ -7,12 +7,12 @@
 <html>
 
 <head>
-  <title>McKenna Family Christmas</title>
+  <title>Logan Augustine Ministry Website</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta property="og:title" content="McKenna Family Christmas" />
+  <meta property="og:title" content="Logan Augustine Ministry Website" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="Wishing you all a wonderful Christmas and an exciting new year!" />
+  <meta property="og:description" content="None" />
   <meta property="og:url" content="https://mckennafam.com" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:image" content="https://mckennafam.com/images/{{ page.year | default: '2024' }}%20preview.jpg" />
@@ -33,16 +33,15 @@
   <div id="wrapper">
     <!-- Header -->
     <header id="header">
-      <div class="logo">
+      <!-- <div class="logo">
         <img class="icon" src="images/noun-tree-2665898.svg" alt="The McKenna Family Tree" />
-      </div>
+      </div> -->
       <div class="content">
         <div class="inner">
-          <h1 class="gold">McKenna Family Christmas</h1>
-          <p>What a year {{ page.year | default: '2024' }} was!</p>
+          <h1 class="gold">Logan Augustine Ministry Website</h1>
+          <p>Text!</p>
           <p>
-            Celebrations, adventures, and everyday moments remind us of <a href="https://www.gospelfluency.com/#about">God's faithfulness in our lives</a>.
-            <strong><a href="#faimes">Click below</a></li></strong> for some of our favorite memories from this year:
+            Text: 
           </p>
         </div>
       </div>
@@ -109,181 +108,14 @@
 
     <footer id="footer">
       <p class="copyright">
-        &copy; <a href="https://jmckennaphoto.com">J. McKenna Photography</a>.
-        Design: <a href="https://html5up.net">HTML5 UP</a>. Tree by ka reemov
-        from
-        <a href="https://thenounproject.com/browse/icons/term/tree/" target="_blank" title="Tree Icons">Noun Project</a>
-        (CC BY 3.0)
+        &copy;
+        Design: <a href="https://html5up.net">HTML5 UP</a>. Code based on JMcKenna's <a href="https://github.com/ag14spirit/family-christmas-website">Github</a>
       </p>
     </footer>
   </div>
 
   <!-- BG -->
   <div id="bg"></div>
-
-  <!-- Snowflakes -->
-  <div class="snowflakes" aria-hidden="true">
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-    <div class="snowflake">❄</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-    <div class="snowflake">❄</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-    <div class="snowflake">❄</div>
-  </div>
-  <style>
-    .snowflakes {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100vh;
-      width: 100vw;
-      z-index: 99999999999;
-      pointer-events: none;
-    }
-
-    .snowflake {
-      color: rgba(255 255 255 0.2);
-      font-size: 14px;
-      font-family: Arial;
-      text-shadow: 0 0 1px #000;
-    }
-
-    @-webkit-keyframes snowflakes-fall {
-      0% {
-        top: -10%;
-      }
-
-      100% {
-        top: 100%;
-      }
-    }
-
-    @-webkit-keyframes snowflakes-shake {
-      0% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-      }
-
-      50% {
-        -webkit-transform: translateX(40px);
-        transform: translateX(40px);
-      }
-
-      100% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-      }
-    }
-
-    @keyframes snowflakes-fall {
-      0% {
-        top: -10%;
-      }
-
-      100% {
-        top: 100%;
-      }
-    }
-
-    @keyframes snowflakes-shake {
-      0% {
-        transform: translateX(0px);
-      }
-
-      50% {
-        transform: translateX(40px);
-      }
-
-      100% {
-        transform: translateX(0px);
-      }
-    }
-
-    .snowflake {
-      position: fixed;
-      top: -10%;
-      z-index: 9999;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      cursor: default;
-      -webkit-animation-name: snowflakes-fall, snowflakes-shake;
-      -webkit-animation-duration: 10s, 3s;
-      -webkit-animation-timing-function: linear, ease-in-out;
-      -webkit-animation-iteration-count: infinite, infinite;
-      -webkit-animation-play-state: running, running;
-      animation-name: snowflakes-fall, snowflakes-shake;
-      animation-duration: 10s, 3s;
-      animation-timing-function: linear, ease-in-out;
-      animation-iteration-count: infinite, infinite;
-      animation-play-state: running, running;
-    }
-
-    .snowflake:nth-of-type(0) {
-      left: 1%;
-      -webkit-animation-delay: 0s, 0s;
-      animation-delay: 0s, 0s;
-    }
-
-    .snowflake:nth-of-type(1) {
-      left: 10%;
-      -webkit-animation-delay: 1s, 1s;
-      animation-delay: 1s, 1s;
-    }
-
-    .snowflake:nth-of-type(2) {
-      left: 20%;
-      -webkit-animation-delay: 6s, 0.5s;
-      animation-delay: 6s, 0.5s;
-    }
-
-    .snowflake:nth-of-type(3) {
-      left: 30%;
-      -webkit-animation-delay: 4s, 2s;
-      animation-delay: 4s, 2s;
-    }
-
-    .snowflake:nth-of-type(4) {
-      left: 40%;
-      -webkit-animation-delay: 2s, 2s;
-      animation-delay: 2s, 2s;
-    }
-
-    .snowflake:nth-of-type(5) {
-      left: 50%;
-      -webkit-animation-delay: 8s, 3s;
-      animation-delay: 8s, 3s;
-    }
-
-    .snowflake:nth-of-type(6) {
-      left: 60%;
-      -webkit-animation-delay: 6s, 2s;
-      animation-delay: 6s, 2s;
-    }
-
-    .snowflake:nth-of-type(7) {
-      left: 70%;
-      -webkit-animation-delay: 2.5s, 1s;
-      animation-delay: 2.5s, 1s;
-    }
-
-    .snowflake:nth-of-type(8) {
-      left: 80%;
-      -webkit-animation-delay: 1s, 0s;
-      animation-delay: 1s, 0s;
-    }
-
-    .snowflake:nth-of-type(9) {
-      left: 90%;
-      -webkit-animation-delay: 3s, 1.5s;
-      animation-delay: 3s, 1.5s;
-    }
-  </style>
 
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js" defer></script>
@@ -324,3 +156,4 @@
 </body>
 
 </html>
+
